@@ -39,4 +39,17 @@ Created as a portfolio frontend project.
 2. ```bash
 3. git clone https://github.com/ivailoiliev89-netizen/Manchester-United-Fan-Site.git
 4. Images should be placed in the `images/` folder
+5. Open index.html in your browser
+
+## What I Learned
+
+- HTML page structure
+- CSS styling and layout
+- Creating simple static websites
+- Insert a JavaScript for more readable code and view of project
+
+## Author
+
+Ivailo Iliev
+GitHub: https://github.com/ivailoiliev89-netizen
 
