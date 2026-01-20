@@ -1,12 +1,19 @@
-# Link to project:
+# Link to project
+
 https://ivailoiliev89-netizen.github.io/Manchester-United-Fan-Site/
 
 # Manchester United Fan Site
-This project is part of my learning journey in front-end development.
 
-This is a fan website for Manchester United, created as a junior project.
+This project is part of my learning journey in front-end development.
+A static fan website dedicated to Manchester United. 
+The project focuses on HTML structure and CSS styling also and a bit of JavaScript.
+Created as a portfolio frontend project.
 
 ## Features
+
+- Homepage with club information
+- Styled sections and layout
+- Responsive design basics
 - Home section with title and button
 - Separate "Learn More" page
 - Features section highlighting trophies, traditions, and stadium
@@ -17,15 +24,19 @@ This is a fan website for Manchester United, created as a junior project.
 - Responsive navbar and footer
 - Gradient background and interactive hover effects
 
-## Tech Stack
+## Used Techs
+
 - HTML
 - CSS
 - JavaScript
 
 ## Author
+
 - Ivailo Iliev
 
 ## Notes
-- Designed as a junior project for learning HTML, CSS, and JS
-- Images should be placed in the `images/` folder
+1. Download or clone the repository:
+2. ```bash
+3. git clone https://github.com/ivailoiliev89-netizen/Manchester-United-Fan-Site.git
+4. Images should be placed in the `images/` folder
 
