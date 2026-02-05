@@ -1,6 +1,6 @@
 # Manchester United Fan Site
 
-This project is part of my learning journey in front-end development.
+This is part of my learning journey in front-end development.
 A static fan website dedicated to Manchester United. 
 The project focuses on HTML structure and CSS styling also and a bit of JavaScript.
 Created as a portfolio frontend project.
