@@ -1,7 +1,3 @@
-# Link to project
-
-https://ivailoiliev89-netizen.github.io/Manchester-United-Fan-Site/
-
 # Manchester United Fan Site
 
 This project is part of my learning journey in front-end development.
