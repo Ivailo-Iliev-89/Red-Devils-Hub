@@ -36,7 +36,7 @@ Option 1: Direct Open
 - Simply locate the `index.html` file in the root folder and open it with any web browser.
 Option 2: Local Server (Recommended)
 - If you have Python installed, run this command in the project directory:
-```bash python -m http.server 8000
+- ```bash python -m http.server 8000
 
 ## What I Learned
 
@@ -44,5 +44,3 @@ Option 2: Local Server (Recommended)
 - CSS styling and layout
 - Creating simple static websites
 - Insert a JavaScript for more readable code and view of project
-
-
