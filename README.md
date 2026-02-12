@@ -1,5 +1,5 @@
 # Manchester United Fan Site
-
+Follow the link to see the project : https://ivailoiliev89-netizen.github.io/Manchester-United-Fan-Site/
 This is part of my learning journey in front-end development.
 A static fan website dedicated to Manchester United. 
 The project focuses on HTML structure and CSS styling also and a bit of JavaScript.
@@ -36,7 +36,7 @@ Option 1: Direct Open
 - Simply locate the `index.html` file in the root folder and open it with any web browser.
 Option 2: Local Server (Recommended)
 - If you have Python installed, run this command in the project directory:
-- ```bash python -m http.server 8000
+- python -m http.server 8000
 
 ## What I Learned
 
