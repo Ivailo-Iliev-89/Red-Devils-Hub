@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 
@@ -5,11 +6,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Manchester United</title>
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&family=Iceberg&family=Jost:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Pacifico&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./css/base.css">
-  <link rel="stylesheet" href="./css/components.css">
+  <link rel="stylesheet" href="{% static 'css/base.css' %}">
+  <link rel="stylesheet" href="{% static 'css/components.css' %}">
 
   <style>
     .gradient-background {
@@ -38,13 +40,14 @@
   <nav id="navbar">
     <a href="#title">Home</a>
     <a href="#features">About</a>
+    <a href="#players">Players</a>
     <a href="#testimonial">Fans</a>
     <a href="#pricing">Tickets</a>
   </nav>
 
   <!-- Title -->
   <section id="title" class="gradient-background">
-    <img src="./images/man-utd-logo.png" alt="Manchester United Logo" class="club-logo">
+    <img src="{% static 'images/man-utd-logo.png' %}" alt="Manchester United Logo" class="club-logo">
     <h1>Manchester United</h1>
     <p>The Red Devils</p>
     <a href="learn-more.html">
@@ -80,9 +83,9 @@
     <h2>Gallery</h2>
 
     <div class="gallery-container">
-      <img src="./images/old-trafford.jpg" alt="Old Trafford">
-      <img src="./images/man-utd-team.jpg" alt="Manchester United Team">
-      <img src="./images/trophy.jpg" alt="Trophies">
+      <img src="{% static 'images/old-trafford.jpg' %}" alt="Old Trafford">
+      <img src="{% static 'images/man-utd-team.jpg'%}" alt="Manchester United Team">
+      <img src="{% static 'images/trophy.jpg' %}" alt="Trophies">
     </div>
   </section>
 
@@ -104,7 +107,7 @@
   <section id="testimonial">
     <h2>What the fans says ?</h2>
     <p>"Once a Red, always a Red!"</p>
-    <img src="./images/fan-man-utd.jpg" alt="Manchester United Fan">
+    <img src="{% static 'images/fan-man-utd.jpg' %}" alt="Manchester United Fan">
   </section>
 
   <!-- Pricing -->
@@ -126,6 +129,9 @@
   <section id="footer">
     <p>© 2026 My Manchester United Fan Site</p>
   </section>
+  <script src="{% static 'js/main.js' %}">
+
+  </script>
 </body>
 
 </html>
