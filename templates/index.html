@@ -1,49 +1,6 @@
+{% extends 'base.html' %}
 {% load static %}
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Manchester United</title>
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&family=Iceberg&family=Jost:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Pacifico&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="{% static 'css/base.css' %}">
-  <link rel="stylesheet" href="{% static 'css/components.css' %}">
-
-  <style>
-    .gradient-background {
-      background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
-      background-size: 180% 180%;
-      animation: gradient-animation 18s ease infinite;
-    }
-
-    @keyframes gradient-animation {
-      0% {
-        background-position: 0% 50%;
-      }
-      50% {
-        background-position: 100% 50%;
-      }
-      100% {
-        background-position: 0% 50%;
-      }
-    }
-  </style>
-</head>
-
-<body>
-
-  <!-- Menu -->
-  <nav id="navbar">
-    <a href="#title">Home</a>
-    <a href="#features">About</a>
-    <a href="#players">Players</a>
-    <a href="#testimonial">Fans</a>
-    <a href="#pricing">Tickets</a>
-  </nav>
+{% block content%}
 
   <!-- Title -->
   <section id="title" class="gradient-background">
@@ -55,33 +12,9 @@
     </a>
   </section>
 
-  <!-- Features -->
-  <section id="features">
-    <h2>Why Manchester United</h2>
-
-    <div class="feature-box">
-      <div class="icon-square">🏆</div>
-      <h3>Trophies </h3>
-      <p>20 titles of England, and 3 Champions Leagues</p>
-    </div>
-
-    <div class="feature-box">
-      <div class="icon-square">👹</div>
-      <h3>Traditions </h3>
-      <p>Created in 1878</p>
-    </div>
-
-     <div class="feature-box">
-       <div class="icon-square">🏟️</div>
-      <h3>Stadium </h3>
-      <p>Old Trafford - Theatre of Dreams</p>
-    </div>
-  </section>
-
   <!-- Gallery -->
   <section id="gallery">
     <h2>Gallery</h2>
-
     <div class="gallery-container">
       <img src="{% static 'images/old-trafford.jpg' %}" alt="Old Trafford">
       <img src="{% static 'images/man-utd-team.jpg'%}" alt="Manchester United Team">
@@ -89,49 +22,4 @@
     </div>
   </section>
 
-  <!-- Players -->
-  <section id="players">
-    <h2>Current Squad</h2>
-    <table id="players-table">
-      <tr>
-        <th>Player</th>
-        <th>Position</th>
-        <th>Number</th>
-        <th>Nationality</th>
-      </tr>
-    </table>
-
-  </section>
-
-  <!-- Testimonial -->
-  <section id="testimonial">
-    <h2>What the fans says ?</h2>
-    <p>"Once a Red, always a Red!"</p>
-    <img src="{% static 'images/fan-man-utd.jpg' %}" alt="Manchester United Fan">
-  </section>
-
-  <!-- Pricing -->
-  <section id="pricing">
-    <h2>Tickets</h2>
-
-    <div class="price-box">
-      <h3>Standart</h3>
-      <p>£40</p>
-    </div>
-
-    <div class="price-box">
-      <h3>VIP</h3>
-      <p>£120</p>
-    </div>
-  </section>
-
-  <!-- Footer -->
-  <section id="footer">
-    <p>© 2026 My Manchester United Fan Site</p>
-  </section>
-  <script src="{% static 'js/main.js' %}">
-
-  </script>
-</body>
-
-</html>
+{% endblock %}
