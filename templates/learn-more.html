@@ -1,26 +1,6 @@
+{% extends 'base.html' %}
 {% load static %}
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Learn More | Manchester United</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&family=Iceberg&family=Jost:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Pacifico&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="{% static 'css/base.css' %}">
-  <link rel="stylesheet" href="{% static 'css/components.css' %}">
-
-</head>
-
-<body>
-
-  <nav id="navbar">
-    <a href="index.html">Home</a>
-    <a href="#history">History</a>
-    <a href="#values">Values</a>
-    <a href="#legacy">Legacy</a>
-  </nav>
+{% block content %}
 
   <section id="history">
     <h1>Manchester United – A Football Legacy</h1>
@@ -54,10 +34,4 @@
       for football history and storytelling.
     </p>
   </section>
-
-  <footer id="footer">
-    <p>© 2026 Manchester United Fan Project</p>
-  </footer>
-
-</body>
-</html>
+{% endblock %}

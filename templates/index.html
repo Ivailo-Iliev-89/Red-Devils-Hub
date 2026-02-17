@@ -7,9 +7,9 @@
     <img src="{% static 'images/man-utd-logo.png' %}" alt="Manchester United Logo" class="club-logo">
     <h1>Manchester United</h1>
     <p>The Red Devils</p>
-    <a href="learn-more.html">
-      <button>Learn more</button>
-    </a>
+      <a href="{% url 'club:learn-more' %}">
+        <button>Learn more</button>
+      </a>
   </section>
 
   <!-- Gallery -->
