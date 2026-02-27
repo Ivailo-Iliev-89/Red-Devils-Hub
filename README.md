@@ -35,7 +35,7 @@ while architecting a scalable backend for club news and squad management.
 
 - Clone or downloadn the repository:
 - ```bash
-- git clone https://github.com/ivailoiliev89-netizen/Manchester-United-Fan-Site.git
+- git clone https://github.com/Ivailo-Iliev-89/Red-Devils-Hub.git
 - pip install -r requirements.txt
 - python manage.py makemigrations
 - python manage.py migrate
